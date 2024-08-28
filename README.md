@@ -6,6 +6,9 @@ This app allows user to manage events (create, fetch, update and delete) as well
 
 Pipenv needs to be installed
 
+.env needs to be created and fulfilled according to .env.sample. 
+.env sample file is provided in the repository
+
 ## Project setup
 
 **Step 1**
@@ -27,6 +30,10 @@ Alternatively you can run the project with docker.
 Run the following command:
 
 **docker-compose up --build**
+
+**Note:**
+
+You need do run the migrations with the command provided further.
 
 ## Migrations
 
